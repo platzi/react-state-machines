@@ -3,7 +3,7 @@ import './Tickets.css';
 
 export const Tickets = ({ send, context }) => {
   const finish = () => {
-    console.log('finish');
+    send('FINISH')
   };
 
   return (
