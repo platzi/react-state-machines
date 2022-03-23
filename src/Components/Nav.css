@@ -1,0 +1,18 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(255,255,255, 0.7);
+  padding: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.Nav-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #293684;
+}
